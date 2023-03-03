@@ -1,8 +1,7 @@
 ---
-title: A Blog That Works
+title: BLOG do Eduardo
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
+  Falo sobre Psicometria, Avaliação Educacional em Larga Escala e outras coisinhas....
 author: "The R Markdown Team @RStudio"
 show_post_thumbnail: true
 show_author_byline: true
@@ -12,10 +11,10 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Emily Cooper's Thoughts
+  title: Meus Ensaios
   description: |
-    I have a lot of thoughts.
-  author: "Emily Cooper"
+    Pitacos sobre Psicometria, Teoria da Resposta ao Item, Avaliação Educacional em Larga Escala e outras coisinhas....
+  author: "Eduardo Sousa"
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
   show_sidebar_adunit: false # show ad container

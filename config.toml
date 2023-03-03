@@ -73,14 +73,14 @@ enableEmoji = true
   # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+ # [[params.social]]
+  #    icon      = "youtube" # icon name without the 'fa-'
+   #   icon_pack = "fab"
+  #    url       = "https://youtube.com"
   [[params.social]]
-      icon      = "youtube" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://youtube.com"
-  [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+      icon      = "envelope" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "mailto:sousa.eduardo@gmail.com"
   [[params.social]]
       icon      = "instagram" # icon name without the 'fa-'
       icon_pack = "fab"
@@ -88,11 +88,11 @@ enableEmoji = true
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/edusousa"
   [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+      icon      = "github" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.github.com/prof-eduardo-sousa"
 
 [taxonomies]
   category = "categories"
@@ -101,35 +101,35 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
-    name = "About"
-    title = "About Blogophonic"
+    name = "SOBRE"
+    title = "SOBRE MIM"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
+    name = "BLOG"
+    title = "BLOG"
     url = "/blog/"
     weight = 2
+  #[[menu.header]]
+    #name = "Projects"
+    #title = "Project Portfolio"
+    #url = "/project/"
+    #weight = 3
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
-    weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
+    name = "PALESTRAS"
+    title = "PALESTRAS E CURSOS"
     url = "/talk/"
     weight = 4
     
   # Configure footer  
+  #[[menu.footer]]
+    #name = "License"
+    #title = "License"
+    #url = "/license/"
+    #weight = 1
   [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
-    weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
+    name = "CONTATO"
+    title = "VAMOS CONVERSAR?"
     url = "/contact/"
     weight = 2
 
